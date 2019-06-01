@@ -9,5 +9,5 @@ def oxford_comma(array)
   
 end
 
-my_arr = ["fiddleheads","okra"]
+my_arr = ["fiddleheads","okra", "Jake"]
 puts oxford_comma(my_arr)
