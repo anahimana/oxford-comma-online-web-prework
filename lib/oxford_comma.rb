@@ -1,9 +1,8 @@
 def oxford_comma(array)
   if array.length > 1
-    return 
-  end
   array.insert(-2, "and #{array.last}")
   array.pop
+  end
   array.join(", ")
 end
 
