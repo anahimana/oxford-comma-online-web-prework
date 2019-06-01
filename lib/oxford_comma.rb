@@ -6,5 +6,5 @@ def oxford_comma(array)
   array.join(", ")
 end
 
-# my_arr = ["fiddleheads","okra","kohlrabi"]
+# my_arr = ["fiddleheads","okra"]
 # puts oxford_comma(my_arr)
