@@ -3,8 +3,10 @@ def oxford_comma(array)
     array.insert(-2, "and #{array.last}")
     array.pop
     array.join(", ")
+  else
+    array.join(" and ")
   end
-  array.join(" and ")
+  
 end
 
 my_arr = ["fiddleheads","okra"]
