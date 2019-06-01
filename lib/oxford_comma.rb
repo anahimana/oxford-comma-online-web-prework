@@ -4,6 +4,7 @@ def oxford_comma(array)
     array.pop
     array.join(", ")
   end
+  array.join("and ")
 end
 
 my_arr = ["fiddleheads","okra"]
